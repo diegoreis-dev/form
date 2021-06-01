@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2 - HTML</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend><b>Cadastro</b></legend>
+
+        <form action="" method="post" enctype="multipart/form-data">
+
+            <label for="nome"><b>Nome</b></label>
+            <br>
+
+            <input type="text" name="nome" id="nome" required autofocus placeholder="Digite seu nome">
+            <br>
+            <br>
+
+            <label for="email"><b>Email</b></label>
+            <br>
+            <input type="email" name="email" id="email" required autofocus placeholder="Digite seu e-mail">
+            <br>
+            <br>
+
+            <label for="idade"><b>Idade</b></label>
+            <br>
+            <input type="number" name="idade" id="idade" required min="12" autocomplete="age" autofocus
+                placeholder="Digite sua idade">
+            <br>
+            <br>
+
+            <label for="data-nascimento"><b>Data de Nascimento</b></label>
+            <br>
+            <input type="date" name="data-nascimento" id="data-nascimento" required>
+            <br>
+            <br>
+
+            <label><b>Onde você possui conta:</b>
+                <br>
+                <label>
+                    <input type="checkbox" name="instagram">
+                    Instagram
+                </label>
+
+                <label>
+                    <input type="checkbox" name="facebook">
+                    Facebook
+                </label>
+
+                <label>
+                    <input type="checkbox" name="youtube">
+                    Youtube
+                </label>
+            </label>
+            <br>
+            <br>
+            <label><b>Sexo</b>
+                <br>
+                <label>
+                    <input type="radio" name="genero" value="masculino">
+                    Masculino
+                </label>
+
+                <label>
+                    <input type="radio" name="genero" value="feminino">
+                    Feminio
+                </label>
+            </label>
+            <br>
+            <br>
+
+            <label><b>Cor dos Olhos</b>
+                <input type="color" name="cor-dos-olhos" />
+            </label>
+            <br>
+            <br>
+
+            <label><b>Bibliografia</b>
+                <br>
+                <textarea name="bio"></textarea>
+            </label>
+            <br>
+            <br>
+
+            <label><b>Foto de perfil</b><br>
+                <input type="file" name="arquivo" accept="image/*">
+            </label>
+            <br>
+            <br>
+
+            <label><b>Telefone</b><br>
+                <input type="tel" name="telefone">
+            </label>
+            <br><br>
+
+            <label><b>Link do Perfil do Facebook</b><br>
+                <input type="url" name="url">
+            </label>
+            <br><br>
+
+            <label><b>Senha</b><br>
+                <input type="password" name="senha" minlength="6" maxlength="8" required>
+            </label>
+            <br>
+            <br>
+
+            <button type="reset" name="reset">Limpar</button>
+            <button type="submit" name="submit">Enviar Dados</button>
+        </form>
+    </fieldset>
+
+
+</body>
+
+</html>
